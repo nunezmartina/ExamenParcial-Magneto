@@ -23,3 +23,23 @@ Este proyecto permite identificar si un humano es mutante analizando una secuenc
 ## 🌐 Ejecución
 La aplicación ha sido desplegada en Render y está disponible en: https://examenparcial-magneto.onrender.com
 
+## 📌 Endpoints Disponibles
+- POST /mutant - Recibe un JSON con la matriz de ADN y determina si es mutante.
+- GET /stats - Devuelve un JSON con el conteo de mutantes y humanos verificados.
+
+## 🧪 Ejemplos para Pruebas Unitarias
+Prueba Unitaria Mutante
+
+```json
+{ "dna": ["TGAC", "AGCC", "TGAC", "GGTC"] }
+```
+Prueba Unitaria No Mutante
+```json
+{ "dna": ["AAAT", "AACC", "AAAC", "CGGG"] }
+```
+
+## 🔗 Enlace para Pruebas y Documentación
+- Swagger UI: Si la API está en funcionamiento, puedes realizar pruebas en http://localhost:8080/swagger-ui/index.html.
+- Postman: También puedes utilizar Postman para realizar pruebas. En el proyecto, se incluye el archivo MercadoLibre.postman_collection.json que contiene:
+- - Una petición POST con ejemplo de ADN mutante para verificar.
+- - Una petición GET que muestra las estadísticas de verificación de ADN.
