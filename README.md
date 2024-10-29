@@ -11,6 +11,9 @@ Este proyecto permite identificar si un humano es mutante analizando una secuenc
 ### Ejemplo de Entrada
 ```json
 { "dna": ["ATCGTA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"] }
+- Una vez que la matriz se ha cargado correctamente, se ejecuta una función que verifica la presencia de secuencias mutantes y devuelve el resultado al usuario en función de este análisis.
+
+### 🚀 Funcionalidades Básicas
 
 
 
