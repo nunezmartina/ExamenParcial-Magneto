@@ -11,4 +11,7 @@ Este proyecto permite identificar si un humano es mutante analizando una secuenc
 ### Ejemplo de Entrada
 
 ```json
-{ "dna": ["ATCGTA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"] } \```
+{ "dna": ["ATCGTA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"] }
+```
+
+##Hola
