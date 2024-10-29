@@ -41,5 +41,5 @@ Prueba Unitaria No Mutante
 ## 🔗 Enlace para Pruebas y Documentación
 - Swagger UI: Si la API está en funcionamiento, puedes realizar pruebas en http://localhost:8080/swagger-ui/index.html.
 - Postman: También puedes utilizar Postman para realizar pruebas. En el proyecto, se incluye el archivo MercadoLibre.postman_collection.json que contiene:
-- - Una petición POST con ejemplo de ADN mutante para verificar.
-- - Una petición GET que muestra las estadísticas de verificación de ADN.
+  - Una petición POST con ejemplo de ADN mutante para verificar.
+  - Una petición GET que muestra las estadísticas de verificación de ADN.
