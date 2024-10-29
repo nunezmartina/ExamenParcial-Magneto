@@ -15,14 +15,14 @@ Este proyecto permite identificar si un humano es mutante analizando una secuenc
 ```
 
 ## 🚀 Funcionalidades Básicas
-✔️ Compatibilidad con matrices no cuadradas: Valida correctamente matrices que no sean de 6x6.
-✔️ Validación de caracteres no permitidos: Solo se permiten las letras A, T, C, G en la secuencia de ADN.
-✔️ Identificación de ADN duplicado: Se detectan y registran las secuencias de ADN ya almacenadas en la base de datos.
-✔️ Gestión de matrices vacías: Se controla que la matriz no esté vacía para iniciar el análisis.
+-✔️ Compatibilidad con matrices no cuadradas: Valida correctamente matrices que no sean de 6x6.
+-✔️ Validación de caracteres no permitidos: Solo se permiten las letras A, T, C, G en la secuencia de ADN.
+-✔️ Identificación de ADN duplicado: Se detectan y registran las secuencias de ADN ya almacenadas en la base de datos.
+-✔️ Gestión de matrices vacías: Se controla que la matriz no esté vacía para iniciar el análisis.
 
 ## 🌐 Ejecución
 La aplicación ha sido desplegada en Render y está disponible en: https://examenparcial-magneto.onrender.com
-- Colocar al lado de el link este /mutant o /stats
+- Colocar al lado de el link /mutant o /stats
 
 ## 📌 Endpoints Disponibles
 - POST /mutant - Recibe un JSON con la matriz de ADN y determina si es mutante.
